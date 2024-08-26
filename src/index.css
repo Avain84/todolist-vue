@@ -7,9 +7,6 @@
   body {
     font-family: "Noto Sans TC", sans-serif;
   }
-  .container {
-    @apply w-full mr-auto ml-auto pr-3 pl-3;
-  }
   .layout-grid {
     /*以下為網格系統必要屬性*/
     @apply grid grid-cols-4 md:grid-cols-12 gap-6;

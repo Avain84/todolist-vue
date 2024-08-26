@@ -11,15 +11,15 @@ export default {
     },
     container:{
       screens: {
-        'md': '520px',
-        'lg': '992px'
+        'md': '768px',
+        'lg': '1024px'
       },
       center: true,
       padding: '32px'
     },
     screens: {
-      'md': '520px',
-      'lg': '992px'
+      'md': '768px',
+      'lg': '1024px'
     },
   },
   plugins: [],
