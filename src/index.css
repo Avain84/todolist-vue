@@ -2,3 +2,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    font-family: "Noto Sans TC", sans-serif;
+  }
+  .layout-grid {
+    /*以下為網格系統必要屬性*/
+    @apply grid grid-cols-4 md:grid-cols-12 gap-6;
+  }
+  label,
+  input,
+  button {
+    @apply block;
+  }
+}
+
+@layer components{
+  
+}
