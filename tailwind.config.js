@@ -7,20 +7,20 @@ export default {
         'main-yellow': '#FFD370',
         'main-black': '#333333',
         'main-alert': '#D87355',
-      }
+      },
     },
-    container:{
+    container: {
       screens: {
-        'md': '768px',
-        'lg': '1024px'
+        md: '768px',
+        lg: '1024px',
       },
       center: true,
-      padding: '32px'
+      padding: '32px',
     },
     screens: {
-      'md': '768px',
-      'lg': '1024px'
+      md: '768px',
+      lg: '1024px',
     },
   },
   plugins: [],
-}
+};
