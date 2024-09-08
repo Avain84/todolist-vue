@@ -6,25 +6,25 @@ import { ErrorMessage } from 'vee-validate';
 
 <template>
   <TodoOutlet>
-    <main>
-      <h2 class="font-bold text-2xl text-center">註冊帳號</h2>
+    <main class="w-full">
+      <h2 class="mb-6 font-bold text-2xl text-center">註冊帳號</h2>
       <VForm>
-        <div>
+        <div class="mb-4">
           <label for="email">Email</label>
           <VField type="email" name="email" id="email" placeholder="請輸入 Email" />
           <ErrorMessage name="email" />
         </div>
-        <div>
+        <div class="mb-4">
           <label for="userName">你的暱稱</label>
           <VField type="text" name="userName" id="userName" placeholder="請輸入您的暱稱" />
           <ErrorMessage name="userName" />
         </div>
-        <div>
+        <div class="mb-4">
           <label for="password">密碼</label>
           <VField type="password" name="password" id="password" placeholder="請輸入密碼" />
           <ErrorMessage name="password" />
         </div>
-        <div>
+        <div class="mb-4">
           <label for="password-valid">再次輸入密碼</label>
           <VField type="password" name="password-valid" id="password-valid" placeholder="請再次輸入密碼" />
           <ErrorMessage name="password-valid" />
