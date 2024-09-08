@@ -1,7 +1,7 @@
-import { createApp } from 'vue'
-import '@/index.css'
-import App from './App.vue'
-import router from './router'
+import { createApp } from 'vue';
+import '@/index.css';
+import App from './App.vue';
+import router from './router';
 
 import { Field, Form, ErrorMessage, defineRule, configure } from 'vee-validate';
 import { all as AllRules } from '@vee-validate/rules';
@@ -19,11 +19,11 @@ configure({
 
 setLocale('zh_TW');
 
-const app = createApp(App)
+const app = createApp(App);
 
-app.use(router)
+app.use(router);
 app.component('VForm', Form)
 app.component('VField', Field)
 app.component('ErrorMessage', ErrorMessage)
 
-app.mount('#app')
+app.mount('#app');
