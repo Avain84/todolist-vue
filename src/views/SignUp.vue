@@ -24,13 +24,15 @@ import { ErrorMessage } from 'vee-validate';
           <VField type="password" name="password" id="password" placeholder="請輸入密碼" />
           <ErrorMessage name="password" />
         </div>
-        <div class="mb-4">
+        <div class="mb-6">
           <label for="password-valid">再次輸入密碼</label>
           <VField type="password" name="password-valid" id="password-valid" placeholder="請再次輸入密碼" />
           <ErrorMessage name="password-valid" />
         </div>
-        <button type="submit">註冊帳號</button>
-        <RouterLink to="/">登入</RouterLink>
+        <div class="flex flex-col items-center gap-6">
+          <button type="submit" class="main-btn">註冊帳號</button>
+          <RouterLink to="/" class="sec-btn">登入</RouterLink>
+        </div>
       </VForm>
     </main>
   </TodoOutlet>

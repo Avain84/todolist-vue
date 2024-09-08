@@ -27,5 +27,10 @@
 }
 
 @layer components{
-  
+  .main-btn {
+    @apply rounded-xl bg-black hover:bg-black/70 font-bold text-base text-white px-12 py-3;
+  }
+  .sec-btn {
+    @apply rounded-xl font-bold text-base hover:bg-black/50 hover:text-white px-12 py-3;
+  }
 }
