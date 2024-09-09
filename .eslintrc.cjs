@@ -7,14 +7,19 @@ module.exports = {
     'airbnb-base',
   ],
   parserOptions: {
-    ecmaVersion: 'latest'
+    ecmaVersion: 'latest',
   },
   settings: {
     'import/resolver': {
       alias: {
         map: [['@', './src']],
-        extensions: ['.js', '.vue']
-      }
-    }
-  }
-}
+        extensions: ['.js', '.vue'],
+      },
+    },
+    'import/core-modules': [
+      'vite',
+      '@vitejs/plugin-vue',
+      'vite-plugin-vue-devtools',
+    ],
+  },
+};
