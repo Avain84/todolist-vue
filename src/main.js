@@ -22,8 +22,8 @@ setLocale('zh_TW');
 const app = createApp(App);
 
 app.use(router);
-app.component('VForm', Form)
-app.component('VField', Field)
-app.component('ErrorMessage', ErrorMessage)
+app.component('VForm', Form);
+app.component('VField', Field);
+app.component('ErrorMessage', ErrorMessage);
 
 app.mount('#app');

@@ -7,14 +7,14 @@ module.exports = {
     'airbnb-base',
   ],
   parserOptions: {
-    ecmaVersion: 'latest'
+    ecmaVersion: 'latest',
   },
   settings: {
     'import/resolver': {
       alias: {
         map: [['@', './src']],
-        extensions: ['.js', '.vue']
-      }
-    }
-  }
-}
+        extensions: ['.js', '.vue'],
+      },
+    },
+  },
+};

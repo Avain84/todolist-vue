@@ -3,7 +3,7 @@ import TodoOutlet from '@/components/TodoOutlet.vue';
 
 const handleLogin = (value) => {
   console.log(value);
-}
+};
 
 </script>
 
